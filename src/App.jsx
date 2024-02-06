@@ -1,8 +1,10 @@
 import "./App.css";
+import DaisyNav from "./Components/DaisyNav/DaisyNav";
 
 function App() {
   return (
     <>
+      <DaisyNav></DaisyNav>
       <h1 className="text-7xl">Vite + React</h1>
       <div className="stats shadow">
         <div className="stat">
