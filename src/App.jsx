@@ -1,12 +1,13 @@
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
+import PriceOptions from "./Components/PriceOptions/PriceOptions";
 
 function App() {
   return (
     <>
       <NavBar></NavBar>
-      <h1 className="text-7xl">Vite + React</h1>
-      <div className="stats shadow">
+      <h1 className="text-2xl">Vite + React</h1>
+      {/* <div className="stats shadow">
         <div className="stat">
           <div className="stat-figure text-primary">
             <svg
@@ -108,7 +109,8 @@ function App() {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
+      <PriceOptions></PriceOptions>
     </>
   );
 }
